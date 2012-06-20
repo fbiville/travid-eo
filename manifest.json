@@ -1,0 +1,11 @@
+{
+  "name": "travid-eo",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://travis-ci.org/"],
+      "css": ["travid-eo.css"],
+      "js": ["travid-eo.js"]
+    }
+  ]
+}
